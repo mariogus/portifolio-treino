@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+/*css menu lateral*/
+.sidebar{
+display: flex;
+    position: fixed;
+left: 0;
+width: 230px;
+height: 100%;
+box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.35);
+background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%); ;
+}
+
+li a{
+    color: aliceblue;
+
+}
+
+.textos-sidebar{
+    text-align: center;
+    margin-top: 110px;
+    
+}
+li{
+margin: 47px;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+
+}
+.text-sobremim{
+    
+    padding-top: 72px   ;
+    color: black;
+    margin-left: 350px;
+    width: 443px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.text-sobremim::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color:black ;
+    display: block;
+    width: 780px;
+    margin-top: 100px;
+    
+}
+.text-sobremim p {
+    margin-top: 50px;
+    font-size: 20px;
+}
+.imagem-mario{
+    height: 200px;
+    position: absolute;
+    width: 269px;
+    height: 269px;
+    left: 850px;
+    top: 109px;
+    border-radius: 134.5px;
+}
+.dominio{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.dominioem{
+    margin-left: 48%;
+    margin-top: 25%;
+}
+.dominio img{
+    padding: 0 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+.dominio::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color:black ;
+    display: block;
+    width: 780px;
+    margin-top: 100px;
+}
+.projetos{
+    margin-left: 51%;
+    margin-top: 10%;
+}
+/*css cards*/
+.card1 a{
+    display: block;
+    margin-left: 33%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 36.8491px 28.6604px;
+    gap: 51.18px;
+
+    width: 600px;
+    height: 50px;
+     background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%);
+    border-radius: 10px;
+
+
+}
+.card1 img{
+    width: 80px;
+}
+.card1 h6{
+    margin-top: -30px;
+    margin-left: -13px;
+    font-size: 25px;
+    color: white;
+}
+.card1 p{
+    color: white;
+    margin-top: 25px;
+    margin-left: -150px;
+    font-size: 20px;
+}
+.card2 a{
+    margin-left: 33%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 36.8491px 28.6604px;
+    gap: 51.18px;
+  
+    width: 600px;
+    height: 50px;
+    background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%);
+    border-radius: 10px;
+  
+  
+  }
+  .card2 img{
+    width: 80px;
+}
+.card2 h6{
+    margin-top: -30px;
+    margin-left: -13px;
+    font-size: 25px;
+    color: white;
+}
+.card2 p{
+    color: white;
+    margin-top: 25px;
+    margin-left: -120px;
+    font-size: 20px;
+}
+  .card3 a{
+    margin-left: 33%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 36.8491px 28.6604px;
+    gap: 51.18px;
+  
+    width: 600px;
+    height: 50px;
+    background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%);
+    border-radius: 10px;
+ 
+  
+  
+  }
+  .card3 img{
+    width: 80px;
+}
+.card3 h6{
+    margin-top: -30px;
+    margin-left: -13px;
+    font-size: 25px;
+    color: white;
+}
+.card3 p{
+    color: white;
+    margin-top: 25px;
+    margin-left: -303px;
+}
+.geral-footer{
+    background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%);
+    margin-top: 20px;
+}
+.footer{
+    margin-left: 55%;
+    font-size: 26px;
+    color: aliceblue;
+
+}
+.imagens-footer{
+    margin-top: 10px;
+    margin-left: 42%;
+}
+.imagens-footer img{
+    display: inline-block;
+    width: 70px;
+    padding: 0 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+   
+}

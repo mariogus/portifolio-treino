@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+body, html {
+    overflow-x: hidden !important;
+    height: 100%;
+    }
+
+.mario{
+    width: 100px;
+    border-radius: 30px;
+}
+/*menu lateral d cria*/
+.sidebar{
+    display: flex;
+        position: fixed;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.35);
+    background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%); ;
+    }
+    
+    li a{
+        color: #fff;
+        font-family: 'Inconsolata';
+        font-weight: 400;
+    
+    }
+    
+    .textos-sidebar{
+        text-align: center;
+        margin-top: 110px;
+        
+        
+    }
+    li{
+    margin: 47px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    .text-sobremim{
+        
+        padding-top: 72px   ;
+        color: black;
+        margin-left: 350px;
+        width: 443px;
+        height: 50px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        
+    }
+    /*linha*/
+    .text-sobremim::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        background-color:black ;
+        display: block;
+        width: 780px;
+        margin-top: 100px;
+        
+    }
+    .text-sobremim p {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .imagem-mario{
+        height: 200px;
+        position: absolute;
+        width: 269px;
+        height: 269px;
+        left: 850px;
+        top: 109px;
+        border-radius: 134.5px;
+    }
+    .dominio{
+        margin-left: 350px;
+        margin-top: 10px;
+    }
+    
+    .dominioem{
+        margin-left: 48%;
+        margin-top: 25%;
+    }
+    .dominio img{
+        padding: 0 60px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+    }
+    .dominio::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        background-color:black ;
+        display: block;
+        width: 700px;
+        margin-top: 100px;
+    }
+    .projetos{
+        margin-left: 51%;
+        margin-top: 10%;
+    }
+    /*proposta*/
+.proposta{
+    position: absolute;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    width: 700px;
+    height: 130px;
+    background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%);
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 32%;
+    margin-top: 40px;
+}
+.proposta p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: 300;
+}
+.proposta::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color:black ;
+    display: block;
+    width: 780px;
+    margin-top: 100px;
+    margin-left: -5%;
+    
+}
+h3{
+    position: absolute;
+    margin-left: 51.5%;
+    margin-top: 20%;
+    font-size: 26px;
+}
+.prototipo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 53px;
+    gap: 51.84px;
+    width: 700px;
+    height: 200px;
+    background: #BABABA;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 37px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 28%;
+    margin-top: 25%;
+
+}
+.prototipo img{
+    width: 240px;
+}
+.prototipo h2{
+position: absolute;
+margin-left: 50%;
+margin-top: -16%;
+}
+.primeria-versao{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 53px;
+    gap: 51.84px;
+    width: 700px;
+    height: 200px;
+    background: #BABABA;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 37px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 28%;
+    margin-top: 65%;
+
+}
+.primeria-versao img{
+    width: 240px;
+}
+.primeria-versao h2{
+position: absolute;
+margin-left: 50%;
+margin-top: -16%;
+}
+.ultimo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 53px;
+    gap: 51.84px;
+    width: 700px;
+    height: 200px;
+    background: #BABABA;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 37px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 28%;
+    margin-top: 45%;
+
+}
+.ultimo img{
+    width: 240px;
+}
+.ultimo h2{
+position: absolute;
+margin-left: 50%;
+margin-top: -16%;
+}
+.footer{
+    position:absolute;
+    background: linear-gradient(268.63deg, #2B1275 1.94%, #181141 85.46%);
+    margin-top: 90%;
+    margin-left: 230px;
+    font-size: 26px;
+    color: aliceblue;
+    width: 100%;
+    
+}
+.footer h4{
+    margin-bottom: 1%;
+    margin-left: 34%;
+}
+.footer a{ 
+    margin-left: 31%;
+    color: white;
+    text-decoration: none;
+
+
+
+
+
+}
